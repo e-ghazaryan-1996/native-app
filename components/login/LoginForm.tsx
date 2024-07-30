@@ -18,7 +18,7 @@ const LoginForm = () => {
     defaultValues: { email: "", password: "" },
   });
   const { mutateAsync } = useUserLogin();
-  const router = useRouter()
+  const router = useRouter();
 
   const onSubmit = async (data: TLoginFormData) => {
     const userRes = await mutateAsync(data);

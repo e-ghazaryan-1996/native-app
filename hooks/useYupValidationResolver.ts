@@ -6,7 +6,9 @@ interface ResolverResult<T> {
   errors: Record<string, { type: string; message: string }>;
 }
 
-const useYupValidationResolver = <T extends Record<string, any>>(validationSchema: AnySchema) => {
+const useYupValidationResolver = <T extends Record<string, any>>(
+  validationSchema: AnySchema
+) => {
   return useCallback(
     async (data: T): Promise<ResolverResult<T>> => {
       try {

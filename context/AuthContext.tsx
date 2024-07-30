@@ -11,10 +11,3 @@ export const AuthContext = createContext<{
   session: null,
   isLoading: false,
 });
-
-
-
-
-
-
-

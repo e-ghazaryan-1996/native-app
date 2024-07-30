@@ -18,7 +18,6 @@ const Header = () => {
       >
         <Entypo name='log-out' size={24} color='black' />
       </TouchableOpacity>
-     
     </View>
   );
 };
