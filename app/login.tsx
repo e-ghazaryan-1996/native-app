@@ -1,4 +1,4 @@
-import { ImageBackground, Text, View } from "react-native";
+import { ImageBackground, View } from "react-native";
 import React from "react";
 import AppGradient from "@/components/shared/AppGradient";
 import { StatusBar } from "expo-status-bar";

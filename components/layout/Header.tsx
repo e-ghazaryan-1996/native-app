@@ -2,7 +2,6 @@ import { useSession } from "@/hooks/useSession";
 import useUserProfile from "@/hooks/useUserProfile";
 import { Text, TouchableOpacity, View } from "react-native";
 import Entypo from "@expo/vector-icons/Entypo";
-import { StatusBar } from "expo-status-bar";
 
 const Header = () => {
   const { signOut } = useSession();

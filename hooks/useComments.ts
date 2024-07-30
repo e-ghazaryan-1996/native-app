@@ -1,7 +1,5 @@
-import { ICommentModel } from "@/services/comments/model";
 import { CommentService } from "@/services/comments/service";
-import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
-import { useEffect, useState } from "react";
+import { useInfiniteQuery } from "@tanstack/react-query";
 
 const PAGE_SIZE = 10;
 
